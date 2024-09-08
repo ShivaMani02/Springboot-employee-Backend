@@ -19,7 +19,7 @@ spring:
       ddl-auto: update
     show-sql: true
 welcome:
-  message: Welcome to Daily Code Buffer!!
+  message: Welcome to the Employee App by Shivansh!!
 
 ---
 
@@ -28,14 +28,14 @@ spring:
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
     password: admin
-    url: jdbc:mysql://localhost:3306/dcbapp-qa
+    url: jdbc:mysql://localhost:3306/employeeapp-qa
     username: root
   jpa:
     hibernate:
       ddl-auto: update
     show-sql: true
 welcome:
-  message: Welcome to Daily Code Buffer!!
+  message: Welcome to the Employee App by Shivansh!!
 
 management:
   endpoints:
@@ -58,4 +58,4 @@ spring:
       ddl-auto: update
     show-sql: true
 welcome:
-  message: Welcome to Daily Code Buffer!!
+  message: Welcome to the Employee App by Shivansh!!
